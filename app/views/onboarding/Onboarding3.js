@@ -11,6 +11,7 @@ const Onboarding3 = (props) => {
   return (
     <OnboardingTemplate
       theme={'light'}
+      invertIcon
       background={StrategyAssets.onboarding3Background}
       iconXml={StrategyAssets.onboarding3Icon}
       title={StrategyCopy.onboarding3Header}
