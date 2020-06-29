@@ -11,7 +11,7 @@ export const LOCALE_LIST: Record<unknown, unknown> = localList;
 export const setUserLocaleOverride: (
   locale: string,
 ) => Promise<void> = setOverride;
-export const getUserLocaleOverride: () => string = getOverride;
+export const getUserLocaleOverride: () => Promise<string> = getOverride;
 export const supportedDeviceLanguageOrEnglish: () => string = supportedDevice;
 export const useLanguageDirection: () =>
   | 'rtl'

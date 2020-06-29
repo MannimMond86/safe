@@ -180,6 +180,12 @@ export const tappableListItem: TextStyle = {
   color: Colors.primaryViolet,
 };
 
+export const linkYellow: TextStyle = {
+  ...mediumFont,
+  color: Colors.primaryYellow,
+  textDecorationLine: 'underline',
+};
+
 // Buttons
 export const buttonText: TextStyle = {
   fontSize: large,
@@ -187,6 +193,11 @@ export const buttonText: TextStyle = {
 };
 
 export const buttonTextDark: TextStyle = {
+  ...buttonText,
+  color: Colors.primaryViolet,
+};
+
+export const buttonTextDarkDisabled: TextStyle = {
   ...buttonText,
   color: Colors.primaryViolet,
 };
