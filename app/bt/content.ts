@@ -8,7 +8,7 @@ import { Icons, Images } from '../assets';
 
 export const btAssets: StrategyAssets = {
   onboarding2Background: Images.LaunchScreen2BT,
-  onboarding2Icon: Icons.LocationPin,
+  onboarding2Icon: Icons.RadioWave,
   onboarding3Background: Images.LaunchScreen3BT,
   onboarding3Icon: Icons.Heart,
   onboarding4Background: Images.LaunchScreen1BT,
